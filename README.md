@@ -1,5 +1,7 @@
 # Attio Developer Platform Snap To Grid Component
 
+I originally built this component for the [Attio Developer Platform](https://www.attio.com/platform/developers) page and promised I would write about how it works. However, I haven't had the capacity to do a full write-up, so I've created and open-sourced this simplified version instead. I also asked Claude to write a step-by-step guide on building it, and it did a pretty good job, you can read that guide below.
+
 ## Step 1: Building a Grid and Placing Items
 
 ### Define Types
