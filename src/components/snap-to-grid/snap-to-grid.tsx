@@ -36,14 +36,7 @@ export const SnapToGrid = () => {
             gridColumnEnd:
               CTA_POSITION.position.column + CTA_POSITION.size.columns,
           }}
-        >
-          <div className="relative flex flex-col items-center justify-center gap-4">
-            <h2 className="text-center font-mono text-neutral-500 text-sm">
-              [ATTIO SNAP GRID DEMO]
-            </h2>
-          </div>
-        </Cell>
-
+        />
         <SnapToGridContextProvider>
           <PlacementCell />
           {hasMeasured &&
