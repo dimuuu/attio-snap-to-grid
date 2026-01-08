@@ -5,7 +5,7 @@ import { useMeasure } from "react-use";
 import { Cell, Grid } from "../grid";
 import { DraggableElement } from "./components/draggable-element";
 import { PlacementCell } from "./components/placement-cell";
-import { CTA_POSITION, GRID_SIZE, PREFOOTER_ELEMENTS } from "./constants";
+import { CTA_POSITION, ELEMENTS, GRID_SIZE } from "./constants";
 import { SnapToGridContextProvider } from "./context/snap-to-grid-context";
 
 export const SnapToGrid = () => {
@@ -40,7 +40,7 @@ export const SnapToGrid = () => {
         <SnapToGridContextProvider>
           <PlacementCell />
           {hasMeasured &&
-            PREFOOTER_ELEMENTS.map((element) => (
+            ELEMENTS.map((element) => (
               <DraggableElement
                 cellSize={cellSize}
                 className="size-full"

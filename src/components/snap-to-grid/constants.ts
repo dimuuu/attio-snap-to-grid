@@ -10,7 +10,7 @@ export const CTA_POSITION = {
   size: { rows: 3, columns: 8 },
 } as const;
 
-export const PREFOOTER_ELEMENTS: readonly Element[] = [
+export const ELEMENTS: readonly Element[] = [
   {
     title: "calendar",
     position: { row: 2, column: 3 },
