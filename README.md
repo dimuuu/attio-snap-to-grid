@@ -1,4 +1,4 @@
-# Attio Developers Platform Snap To Grid Component
+# Attio Developer Platform Snap To Grid Component
 
 ## Step 1: Building a Grid and Placing Items
 
