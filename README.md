@@ -189,10 +189,7 @@ const handleReposition = useCallback(() => {
   latestPixelOffset.current = { y: newY, x: newX };
 }, [syntheticGridPosition, cellWidth, cellHeight, initialPosition]);
 
-const handleRelease = () => {
-  setSyntheticGridPosition(nextPosition);
-};
-
+// When syntheticGridPosition changes, snap to the new position
 useEffect(() => {
   handleReposition();
 }, [handleReposition]);
